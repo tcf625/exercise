@@ -9,7 +9,7 @@ public class MakeNewEnv {
 
     public static void main(String[] args) throws IOException {
 
-        makeFiles(8);
+        makeFiles(9);
     }
 
     private static void makeFiles(int problem) throws IOException {
