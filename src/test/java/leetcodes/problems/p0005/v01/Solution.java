@@ -1,0 +1,1 @@
+package leetcodes.problems.p0005.v01;class Solution {}
