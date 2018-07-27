@@ -8,19 +8,18 @@ public class SolutionTest0008 {
 
     @Test
     public void test() {
-        Assert.assertEquals(42, target.myAtoi("42"));
-        Assert.assertEquals(42, target.myAtoi(" +42"));
-        Assert.assertEquals(-42, target.myAtoi(" -42"));
-
+        Assert.assertEquals(42, this.target.myAtoi("42"));
+        Assert.assertEquals(42, this.target.myAtoi(" +42"));
+        Assert.assertEquals(-42, this.target.myAtoi(" -42"));
     }
 
     @Test
     public void test2() {
-        Assert.assertEquals(4193, target.myAtoi(" 4193 with words"));
+        Assert.assertEquals(4193, this.target.myAtoi(" 4193 with words"));
     }
 
     @Test
     public void test3() {
-        Assert.assertEquals(-2147483648, target.myAtoi(" -91283472332"));
+        Assert.assertEquals(-2147483648, this.target.myAtoi(" -91283472332"));
     }
 }
